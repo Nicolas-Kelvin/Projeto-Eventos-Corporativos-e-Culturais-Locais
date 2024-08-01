@@ -1,2 +1,2 @@
-# Projeto-Eventos-Corporativos-e-Culturais-Locais
-Projeto feito em grupo - Trabalho Faculdade - Diciplina de Análise e Desenvolvimento de Sistemas 
+# Desafio-Desenvolvimento-Web
+Desafio desenvolvido em grupo utilizando Html, Css e Java Script.

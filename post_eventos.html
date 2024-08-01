@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Post de Eventos" content="post de eventos" />
+    <link rel="icon" href="./assets/Icon-Agenda-Eventos.png" type="image/png" />
+    <title>Post</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Post</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="eventos.html">Eventos</a></li>
+          <li><a href="criar_eventos.html">Criar Evento</a></li>
+          <li><a href="post_eventos.html">Post</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="conteudo">
+          <div class="container">
+            <h2>Compartilhe fotos do evento!</h2>
+            <br />
+            <div class="grupo-formulario">
+              <p>Selecione um arquivo</p>
+              <input type="file" id="entradaFoto" accept="image/*"/>
+              <button class="botao-postar-foto" onclick="postarFoto()">
+                Postar
+              </button>
+            </div>
+            <div id="containerPosts"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <a class="botao-voltar" href="index.html">Voltar para principal</a>
+    <footer>
+      <p>
+        &copy; Site desenvolvido por Júlio, Samuel, Nicolas e Willian - GRUPO 7
+        (GR96003-00135)
+      </p>
+    </footer>
+    <script src="post.js"></script>
+    
+  </body>
+</html>

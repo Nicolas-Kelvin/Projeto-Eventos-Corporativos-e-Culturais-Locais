@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif; /* Nova fonte */
+  background-color: #f9f9f9; /* Cor de fundo mais clara */
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://img.freepik.com/vetores-premium/fundo-abstrato-neutro-modelo-de-poster-minimo-com-formas-de-onda-design-calmo-com-elementos-de-gradiente-papel-de-parede-branco-do-site-textura-macia-moderna_583398-397.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+}
+
+header {
+  background-image: url('https://img.freepik.com/fotos-gratis/desfoque-abstrato-estudio-vazio-de-gradiente-verde-bem-use-como-modelo-de-site-de-fundo-de-relatorio-de-negocios_1258-52607.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+.botao-voltar {
+  text-decoration: none;
+  margin-bottom: 20%;
+  margin-left: 10%
+}
+
+.evento-detalhes {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.evento-textos {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.evento-imagem {
+  flex-shrink: 0;
+}
+
+.evento-imagem img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.evento-detalhes p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+
+
+#entradaFoto {
+  border: none;
+  padding: 1x;
+  background-color: #45a049;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botao-postar-foto {
+  border: none;
+  padding: 15px;
+  background-color: #45a049;
+  color: white;
+  border-radius: 8px;
+}
+
+.botao-postar-foto:hover {
+  background-color: #3c743f;
+}
+
+input, textarea {
+  background-color: white !important;
+}
+
+header h1 {
+  font-size: 24px;
+  }
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;    
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: all .3s ease-out;
+  border-radius: 10px; /* Borda mais arredondada */
+
+}
+
+main {
+  padding: 20px;
+  max-width: 800px; /* Limita a largura do conteúdo */
+  margin: 0 auto; /* Centraliza o conteúdo na página */
+}
+
+.evento {
+  background: #fff;
+  border-radius: 10px; /* Borda mais arredondada */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.titulo {
+  text-align: center;
+  
+}
+
+.evento h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.evento p {
+  margin-bottom: 15px;
+}
+
+p {
+  text-align: center;
+}
+.button {
+  background-color: #4caf50; /* Cor verde */
+  border: none;
+  border-radius: 25px; /* Botão mais arredondado */
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px 30px; /* Maior espaçamento interno */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+select {
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049; /* Cor verde um pouco mais escura */
+}
+
+.botao-criar-evento {
+  border: none;
+  padding: 15px;
+  background-color: #45a049;
+  color: white;
+  cursor: pointer;
+  box-shadow: 3px 3px 1px 0px #00000060;
+  transition: all .3s ease-out;
+  border-radius: 10px;
+}
+
+.botao-criar-evento:hover {
+  background-color: #3c743f;
+}
+
+.ver_detalhes {
+  border: none;
+  padding: 15px;
+  background-color: #45a049;
+  transition: all .3s ease-out;
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px 0px #00000060;
+  color: white;
+}
+
+footer {
+  padding-left: 50px;
+}
+
+.excluir {
+  border: none;
+  padding: 15px;
+  background-color: #45a049;
+  transition: all .3s ease-out;
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px 0px #00000060;
+  color: white;
+}
+
+.excluir:hover{
+  background-color: crimson;
+}
+
+.ver_detalhes:hover {
+  background-color: #3c743f;
+}
+
+a {
+  padding: 6px;
+}
+
+a:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 15px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #4caf50;
+  background-color: transparent;
+  border-bottom: 1px solid #45a049;
+  border-radius: 10px; /* Botão mais arredondado */
+  }
+
+input[type="submit"] {
+  background-color: #4caf50; /* Cor verde */
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 25px; /* Botão mais arredondado */
+  padding: 15px 30px; /* Maior espaçamento interno */
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049; /* Cor verde um pouco mais escura */
+}
+
+/* Estilo para o conteúdo da postagem */
+.conteudo {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+  min-height: calc(100vh - 60px); /* Subtrai a altura da barra de navegação */
+  background-color: transparent;
+}
+
+
+.container {
+  background-color: #ffffff90;
+  border-radius: 10px; 
+  width: 90%;
+  max-width: 600;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 3px 3px 1px 0px #00000060;
+}
+
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 100px;
+}
+
+.grupo-formulario{
+  position: relative;
+  padding-top: 13px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.grupo-formulario input{
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  background-color: transparent;
+  outline: nome;
+  min-width: 10px;
+  font-size: 14px;
+  transition: all .3s ease-out;
+  text-align: center;
+  margin-bottom: 3%;
+  border-radius: 10px;
+}
+.containerPosts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;  
+}
+
+.post {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.post img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.secao-comentario {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.secao-comentario input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.secao-comentario button {
+  padding: 10px 15px;
+  background-color: #45a049; /* bottom comentar*/
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.secao-comentario .comentario {
+  text-align: left;
+  margin: 10px 0;
+  font-size: 14px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  position: relative;
+  display: block;
+}
+
+.secao-comentario .comentario::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #f1f1f1 transparent transparent;
+}
+
+input{
+  background-color: transparent; /* Cor verde */
+  border: 1px solid #4caf50;
+  cursor: pointer;
+  border-radius: 10px; /* Botão mais arredondado */
+  padding: 20px 30px; /* Maior espaçamento interno */
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
