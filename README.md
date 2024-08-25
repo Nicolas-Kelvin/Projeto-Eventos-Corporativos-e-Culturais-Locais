@@ -22,6 +22,7 @@ Funcionalidade do botão Ver detalhes
 <br>
 <br>
 <br>
+
 Funcionalidade do botão Excluir
 <img alt="ilustração-home" src="./assets/assetes-readme/Funcionalidade-Excluir.jpg"></img>
 <br>
